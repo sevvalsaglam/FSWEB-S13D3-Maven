@@ -36,7 +36,7 @@ public class Person {
         return this.gender;
     }
     public boolean isTeen() {
-        return this.age <= 19 && this.age >13;
+        return this.age <= 19 && this.age >=13;
     }
     public int getHeight() {
         return this.height;
